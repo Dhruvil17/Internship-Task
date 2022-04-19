@@ -9,15 +9,15 @@ const Navbar = () => {
     const navigate = useNavigate();
 
     const home = () => {
-        navigate('/Internship-Task');
+        navigate('/');
     };
 
     const product = () => {
-        navigate('/Internship-Task/product');
+        navigate('/product');
     };
 
     const cart = () => {
-        navigate('/Internship-Task/cart');
+        navigate('/cart');
     };
 
     return (

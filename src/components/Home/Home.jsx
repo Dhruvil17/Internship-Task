@@ -6,7 +6,7 @@ const Home = () => {
         <div className="home">
             <h3>
                 This is the Home Page of my Website. I have hosted the website
-                on GitHub Pages.
+                on Heroku Server.
             </h3>
         </div>
     );

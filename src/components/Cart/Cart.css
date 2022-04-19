@@ -1,0 +1,9 @@
+.no-display {
+    display: none;
+}
+
+.total-price {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto 4em;
+}

@@ -9,7 +9,7 @@ const Navbar = () => {
     const navigate = useNavigate();
 
     const home = () => {
-        navigate('/home');
+        navigate('/');
     };
 
     const product = () => {
@@ -24,9 +24,13 @@ const Navbar = () => {
         <div className="sticky-navbar">
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/">
+                    <div
+                        className="navbar-brand nav-link"
+                        style={{ cursor: 'pointer' }}
+                        onClick={home}
+                    >
                         LOGO
-                    </a>
+                    </div>
                     <button
                         className="navbar-toggler"
                         type="button"
